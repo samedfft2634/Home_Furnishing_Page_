@@ -220,7 +220,8 @@ select {
 	font-weight: 400;
 }
 
-.categories {
+.categories,
+.products {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -264,19 +265,12 @@ select {
 	background-color: #eeecec;
 }
 
-.products {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-}
+
 
 .product {
 	width: 350px;
 	height: 300px;
 	margin: 1rem;
-	/* padding: 1rem 2px 1rem 1rem; */
-	/* border: 2px solid black; */
 	border-radius: 10px;
 	background-color: #d9d9d9;
 	box-shadow: 2px 2px 20px black;
@@ -293,4 +287,100 @@ select {
 	border: 10px;
 	border-radius: 10px;
 	object-fit: cover;
+}
+
+/*~ -------------------------------------------------------------------------- */
+/*~                                  CONTACT                                  */
+/*~ -------------------------------------------------------------------------- */
+
+.contact {
+	background-color: #AEA08D;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 3rem 5rem;
+}
+
+.expert {
+	font-family: "Bellota",cursive;
+	padding: 2rem;
+	flex: 5;
+
+}
+
+.lookForExpert {
+	font-size: 2rem;
+	/* line-height: 41.6px; */
+
+}
+.lookForExpert span {
+	color: #f37705;
+}
+.leaveInfo {
+	margin-top: 1rem;
+}
+.formSection {
+	/* border: 2px solid red; */
+	font-size: 1.5rem;
+	flex: 4;
+	
+
+}
+
+.formElement {
+	display: flex;
+	flex-direction: column;
+	margin: 1.5rem 1rem
+}
+
+.formElement input {
+	padding: .5rem 0;
+	border: none;
+	border-bottom: 1px solid #000;
+	outline: none;
+	background-color: inherit;
+	
+	/* width: 100%; */
+	/* height: 100%; */
+
+}
+.formSection button {
+	font-size: 13px;
+	font-family: Arial,  sans-serif;
+	font-style: italic;
+	background-color: #d9d9d9;
+	margin-left: 1rem;
+	padding: 1rem;
+	width: 208px;
+	height: 40px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid black;
+}
+
+/*# -------------------------------------------------------------------------- */
+/*#                                   FOOTER                                   */
+/*# -------------------------------------------------------------------------- */
+
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+}
+
+.footer a {
+	text-decoration: none;
+	border-bottom: 1px solid black;
+	color: #000;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
 }
